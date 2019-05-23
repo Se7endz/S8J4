@@ -1,24 +1,17 @@
-# README
+THP !!!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Projet à rendre en Semaine 8 Jour 4:
 
-Things you may want to cover:
+////  AJAX 2.0 \\\\
 
-* Ruby version
 
-* System dependencies
+Pour run l'appli! faite un git clone des fichiers dans un dossier ensuite : 
+- un bundle install 
+- rails db:create 
+- rails db:migrate 
+- rails db:seed  
+- rails server 
 
-* Configuration
+joindre ensuite l'url http://http://localhost:3000/
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+GL & HF !
