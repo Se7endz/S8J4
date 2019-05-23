@@ -18,6 +18,6 @@ require 'faker'
   end
 
   1.times do 
-  Email.create(objet: Faker::Internet.email, body: Faker::Lorem.paragraph(2))
+  Email.create(objet: Faker::Internet.email, body: Faker::Lorem.paragraph(2), read: false)
 end
 end
