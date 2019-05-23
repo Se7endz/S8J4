@@ -12,6 +12,8 @@ Pour run l'appli! faite un git clone des fichiers dans un dossier ensuite :
 - rails db:seed  
 - rails server 
 
-joindre ensuite l'url http://http://localhost:3000/
+joindre ensuite l'url http://http://localhost:3000/ pour la partie en dev
+
+et pour le fun en prod sur heroku :  https://todolistfake.herokuapp.com/
 
 GL & HF !
