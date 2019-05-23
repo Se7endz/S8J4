@@ -1,0 +1,9 @@
+
+<div class="card" style="width: 60rem;">
+  <div class="card-body">
+    <h5 class="card-title">Email : <%= @emailz.objet.capitalize %></h5>
+    <p class="card-text"><%= @emailz.body.capitalize %></p>
+    <a href="#" class="btn btn-primary">Marquez comme lu</a>
+    <%= link_to "Supprimer", email_path, method: :delete, class: "btn btn-danger" %>
+  </div>
+</div>

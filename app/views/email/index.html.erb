@@ -1,0 +1,28 @@
+<h1>Hello Batard de World</h1>
+
+
+
+<%= link_to "Creer un Email", email_index_path, method: :post, class: "btn btn-info", remote: true  %>
+
+<h1>Emails#index</h1>
+<br>
+<table class="table table-bordered table-striped">
+<thead>
+    <tr>
+        <th>Liste des emails</th>
+        <th>Email selectioné</th>
+    </tr>
+</thead>
+<tbody>
+	<% @emails.each do |email| %>
+    <tr id="email-list">
+    	
+        <td><%= email.id %> <%= link_to "Voir le contenu", email_path(email.id), remote: true  %></td>
+        <td id="email-content"><%=  %></td>
+        
+    </tr>
+
+    <% end %>
+</tbody>
+</table>
+
